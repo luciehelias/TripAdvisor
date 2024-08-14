@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  margin: 20px 50px;
+  font-family: TS-Reg;
+  padding: 0 120px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  color: #ff5e5e;
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 30px 0 20px 0;
+}
+
+h2 {
+  padding: 40px 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+}
+
+.nav-icons {
+  display: flex;
+}
+
+.nav-icons i {
+  padding-right: 10px;
+}
+
+.nav-category:hover {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-category {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-icons button {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+}
+
+.nav-icons button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.selection-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selection-links nav {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  flex: 1;
+  margin: 3px;
+}
+
+.selection-links nav:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.pictures {
+  display: flex;
+  height: 450px;
+  margin-top: 20px;
+  width: 100%;
+  gap: 2px;
+}
+.pictures > img {
+  width: 60%;
+}
+
+.pictures img:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.pictures-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 2px;
+}
+
+.pictures-side img {
+  height: 225px;
+}
+
+.pictures-side img:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.menu {
+  font-size: 12px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-page {
+  display: flex;
+  align-items: flex-start;
+}
+
+.menu-page p {
+  padding-right: 10px;
+}
+
+.menu-page i {
+  padding-right: 10px;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.about-paris p {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.about-paris {
+  width: 60%;
+  padding-right: 110px;
+}
+
+.box-map {
+  display: flex;
+  flex-direction: column;
+  background-color: #fe5e5e;
+  border-radius: 20px;
+  width: 40%;
+}
+
+.maps img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.organisation {
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.organisation h3 {
+  line-height: 1.5;
+}
+
+.organisation p {
+  line-height: 1.5;
+}
+
+.organisation button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 140px;
+}
