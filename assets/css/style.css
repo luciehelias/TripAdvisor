@@ -1,30 +1,14 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import "reset.css";
+@import "fonts.css";
+@import "header.css";
 
 body {
   font-size: 16px;
   font-family: TS-Reg;
 }
 
-header {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  z-index: 2;
-  background-color: white;
-  padding: 0 200px;
-  width: 100%;
-  top: 0;
-}
-
 main {
-  padding-top: 90px;
-  padding: 60px 200px 0 200px;
+  padding: 0px 200px;
 }
 
 nav {
@@ -77,47 +61,6 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.logo {
-  height: 80%;
-  width: auto;
-}
-
-.nav-icons {
-  display: flex;
-  align-items: center;
-}
-
-.nav-icons i {
-  padding-right: 10px;
-}
-
-.nav-category:hover {
-  background-color: #f2f2f2;
-  border-radius: 15px;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.nav-category {
-  display: flex;
-  align-items: center;
-
-  padding: 10px;
-}
-
-.nav-icons button {
-  border-radius: 20px;
-  background-color: black;
-  color: white;
-  padding: 5px 10px;
-  height: 40px;
-}
-
-.nav-icons button:hover {
-  opacity: 80%;
-  cursor: pointer;
 }
 
 .selection-links {

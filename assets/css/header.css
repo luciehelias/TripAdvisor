@@ -1,0 +1,52 @@
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  z-index: 2;
+  background-color: white;
+  padding: 0 200px;
+  width: 100%;
+  top: 0;
+}
+
+header img {
+  height: 80%;
+  width: auto;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav i {
+  padding-right: 10px;
+}
+
+header nav button {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  height: 40px;
+}
+
+header nav button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.nav-category {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-category:hover {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
