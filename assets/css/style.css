@@ -232,6 +232,26 @@ img {
   width: 300px;
 }
 
+.carroussel:hover {
+  cursor: pointer;
+}
+
+.carroussel:hover h4 {
+  text-decoration: underline;
+}
+
+.carroussel:hover .image-primary {
+  opacity: 70%;
+}
+
+.circle:hover {
+  opacity: 90%;
+}
+
+.circle i {
+  font-size: 20px;
+}
+
 .carroussel .circle {
   display: flex;
   justify-content: center;
@@ -244,6 +264,7 @@ img {
   width: 40px;
   top: 10px;
   right: 10px;
+  z-index: 3;
 }
 
 .carroussel .image-logo {
@@ -254,11 +275,13 @@ img {
   width: 30px;
   bottom: 10px;
   left: 10px;
+  z-index: 2;
 }
 
 .carroussel-image {
   height: 200px;
   position: relative;
+  z-index: 1;
 }
 
 .carroussel-text h4 {
