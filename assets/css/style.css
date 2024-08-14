@@ -221,6 +221,7 @@ img {
   overflow-x: scroll;
   gap: 20px;
   flex: 3;
+  scrollbar-width: none;
 }
 
 .carroussel {
@@ -267,7 +268,15 @@ img {
 
 .rating {
   margin-bottom: 10px;
-  height: 20px;
+}
+
+.rating i {
+  font-size: 14px;
+  color: #04a96c;
+}
+
+.rating span {
+  font-size: 14px;
 }
 
 .carroussel-text p {
