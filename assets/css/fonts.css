@@ -23,3 +23,15 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "TS-Bold";
+  src: url("../fonts/tripAdvisor-fonts/TripSans-Bold.eot format")
+      format("embedded-opentype"),
+    url("../fonts/tripAdvisor-fonts/TripSans-Bold.woff2") format("woff2"),
+    url("../fonts/tripAdvisor-fonts/TripSans-Bold.woff") format("woff"),
+    url("../fonts/tripAdvisor-fonts/TripSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
