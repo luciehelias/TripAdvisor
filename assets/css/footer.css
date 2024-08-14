@@ -1,0 +1,23 @@
+footer {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  padding: 0 200px;
+  background-color: #faf1ed;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+footer img {
+  height: 50px;
+  width: 40px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+footer a {
+  font-family: TS-Bold;
+  text-decoration: none;
+}
