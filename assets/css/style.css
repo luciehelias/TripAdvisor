@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  padding: 0px 200px;
+  padding: 0px 250px;
 }
 
 nav {
@@ -29,11 +29,6 @@ a {
 
 a:visited {
   color: black;
-}
-
-.selection p {
-  font-size: 14px;
-  margin-bottom: 20px;
 }
 
 p span {
@@ -81,6 +76,11 @@ img {
   cursor: pointer;
   background-color: black;
   color: white;
+}
+
+.selection p {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .pictures {
@@ -191,7 +191,6 @@ img {
 
 .activities {
   display: flex;
-  align-items: center;
 }
 
 .activities:nth-child(3) {
@@ -233,7 +232,7 @@ img {
   position: relative;
   flex-direction: column;
   flex-shrink: 0;
-  width: 300px;
+  width: 240px;
 }
 
 .carroussel:hover {
@@ -308,4 +307,62 @@ img {
 
 .carroussel-text p {
   font-size: 14px;
+}
+
+.guide h2 {
+  margin-top: 100px;
+}
+
+.guide-articles {
+  display: flex;
+  overflow: scroll;
+  scrollbar-width: none;
+  gap: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  flex-shrink: 0;
+}
+
+.article-image img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.article-text {
+  margin-top: 5px;
+}
+
+.article-text p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.article-text h4 {
+  font-family: TS-Bold;
+  font-size: 19px;
+}
+
+.article-author {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.article-author img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+}
+
+.article-author p {
+  margin-left: 10px;
+}
+
+.article-author span {
+  text-decoration: none;
+  font-family: TS-Bold;
 }
