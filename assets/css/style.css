@@ -309,6 +309,10 @@ img {
   font-size: 14px;
 }
 
+.guide {
+  margin-bottom: 30px;
+}
+
 .guide h2 {
   margin-top: 100px;
 }
