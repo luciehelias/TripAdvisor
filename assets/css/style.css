@@ -194,6 +194,10 @@ img {
   align-items: center;
 }
 
+.activities:nth-child(3) {
+  margin-top: 100px;
+}
+
 .col-1 {
   padding-right: 60px;
   flex: 1;
