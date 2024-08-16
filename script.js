@@ -13,15 +13,12 @@ closingIcon.addEventListener("click", function () {
   modalContainer.style.display = "none";
 });
 
-//Faire en sorte d'avoir les Quatres champs de formulaire valides
-
 const sendErrorMessage = (element) =>
   `Veuillez rentrer votre ${element}, merci !`;
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("#contact-form");
   form.addEventListener("submit", async (event) => {
-    // console.log(event); affiche la cible de l'évenemen (donc ici form) - et pas le BUTTON -
     event.preventDefault();
     errorMessage.textContent = "";
     const firstName = document.querySelector("#firstName");
@@ -50,12 +47,4 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log(error.response);
     }
   });
-  //   console.log(form); // affiche le formulaire
-
-  //   const response = await axios.get("http://localhost:3000/");
-  //   console.log("response =>", response.data); // response => Bienvenue sur notre back pour form de contact
 });
-
-//puis envoyer au back end si tout est valide
-
-// connecter avec le back-end
