@@ -43,8 +43,12 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const response = await axios.post("http://localhost:3000/contact", data);
       console.log(response.data);
-      modalContainer.style.display = "none";
       alert("Votre message a bien été envoyé !");
+      firstName.value = "";
+      lastName.value = "";
+      email.value = "";
+      message.value = "";
+      modalContainer.style.display = "none";
     } catch (error) {
       console.log(error.response);
     }
