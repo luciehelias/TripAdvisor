@@ -4,6 +4,7 @@ header {
   background-color: white;
   top: 0;
 }
+
 header .container {
   display: flex;
   justify-content: space-between;
