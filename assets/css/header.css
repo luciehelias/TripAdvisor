@@ -1,19 +1,18 @@
 header {
   position: sticky;
+  z-index: 2;
+  background-color: white;
+  top: 0;
+}
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
-  z-index: 2;
-  background-color: white;
-  padding: 0 250px;
-  width: 100%;
-  top: 0;
 }
 
 header img {
-  height: 80%;
-  width: auto;
+  width: 200px;
+  object-fit: contain;
 }
 
 header nav {

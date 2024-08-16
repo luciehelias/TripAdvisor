@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'TripAdvisor';
-  src:  url('fonts/TripAdvisor.eot?rhh0pw');
-  src:  url('fonts/TripAdvisor.eot?rhh0pw#iefix') format('embedded-opentype'),
-    url('fonts/TripAdvisor.ttf?rhh0pw') format('truetype'),
-    url('fonts/TripAdvisor.woff?rhh0pw') format('woff'),
-    url('fonts/TripAdvisor.svg?rhh0pw#TripAdvisor') format('svg');
+  font-family: "TripAdvisor";
+  src: url("fonts/TripAdvisor.eot?rhh0pw");
+  src: url("fonts/TripAdvisor.eot?rhh0pw#iefix") format("embedded-opentype"),
+    url("fonts/TripAdvisor.ttf?rhh0pw") format("truetype"),
+    url("fonts/TripAdvisor.woff?rhh0pw") format("woff"),
+    url("fonts/TripAdvisor.svg?rhh0pw#TripAdvisor") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,8 +12,7 @@
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'TripAdvisor' !important;
-  speak: never;
+  font-family: "TripAdvisor" !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

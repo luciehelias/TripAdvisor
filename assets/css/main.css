@@ -1,0 +1,387 @@
+body {
+  font-size: 16px;
+  font-family: TS-Reg;
+}
+
+.container {
+  max-width: 1135px;
+  margin: 0 auto;
+  padding: 12px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+h1 span {
+  color: #ff5e5e;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:visited {
+  color: black;
+}
+
+p span {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 54px;
+  font-family: TS-Bold;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: TS-Bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "TS-Med";
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fa-regular,
+.fa-solid {
+  font-size: 20px;
+}
+
+.hidden-desktop {
+  display: none;
+}
+
+.fa-magnifying-glass,
+.fa-bars {
+  display: none;
+}
+
+.selection-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.selection-links nav p {
+  color: black;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.selection-links nav {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  flex: 1;
+}
+
+.selection-links nav:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.selection p {
+  font-size: 14px;
+  color: #717171;
+}
+
+.pictures {
+  display: flex;
+  height: 450px;
+  margin-top: 20px;
+  width: 100%;
+  gap: 2px;
+}
+.pictures > img {
+  width: 60%;
+}
+
+.pictures img:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.pictures-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 2px;
+}
+
+.pictures-side img {
+  height: 225px;
+}
+
+.pictures-side img:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.menu {
+  font-size: 12px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-page {
+  display: flex;
+  align-items: flex-start;
+}
+
+.menu-page p {
+  padding-right: 10px;
+}
+
+.menu-page i {
+  padding-right: 10px;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.about-paris p {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.about-paris {
+  width: 60%;
+  padding-right: 110px;
+}
+
+.box-map {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  width: 40%;
+}
+
+.maps img {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.organisation {
+  background-color: #fe5e5e;
+  padding: 30px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.organisation h3,
+.organisation p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.organisation button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 140px;
+}
+
+.activities {
+  display: flex;
+}
+
+.activities:nth-child(3) {
+  margin-top: 100px;
+}
+
+.col-1 {
+  padding-right: 60px;
+  flex: 1;
+}
+
+.col-1 h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.col-1 p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.col-1 a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.col-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+  gap: 20px;
+  flex: 3;
+  scrollbar-width: none;
+}
+
+.carroussel {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 240px;
+}
+
+.carroussel:hover {
+  cursor: pointer;
+}
+
+.carroussel:hover h4 {
+  text-decoration: underline;
+}
+
+.carroussel:hover .image-primary {
+  opacity: 70%;
+}
+
+.circle:hover {
+  opacity: 90%;
+}
+
+.circle i {
+  font-size: 20px;
+}
+
+.carroussel .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  align-self: flex-end;
+  height: 40px;
+  width: 40px;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+}
+
+.carroussel .image-logo {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 30px;
+  bottom: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.carroussel-image {
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.carroussel-text h4 {
+  font-family: "TS-Med";
+  margin: 10px 0;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.rating i {
+  font-size: 14px;
+  color: #04a96c;
+}
+
+.rating span {
+  font-size: 14px;
+}
+
+.carroussel-text p {
+  font-size: 14px;
+}
+
+.guide {
+  margin-bottom: 120px;
+}
+
+.guide h2 {
+  margin-top: 100px;
+}
+
+.guide-articles {
+  display: flex;
+  overflow: scroll;
+  scrollbar-width: none;
+  gap: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  flex-shrink: 0;
+}
+
+.article-image img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.article-text {
+  margin-top: 5px;
+}
+
+.article-text p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.article-text h4 {
+  font-family: TS-Bold;
+  font-size: 19px;
+}
+
+.article-author {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.article-author img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+}
+
+.article-author p {
+  margin-left: 10px;
+}
+
+.article-author span {
+  text-decoration: none;
+  font-family: TS-Bold;
+}

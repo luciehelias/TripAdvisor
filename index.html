@@ -12,618 +12,636 @@
   </head>
   <body>
     <header>
-      <img src="assets/images/Tripadvisor_logo.svg" alt="logo TripAdvisor" />
-      <nav>
-        <div class="nav-category">
-          <i class="fa-solid fa-pen"></i>
-          <p>Avis</p>
-        </div>
-        <div class="nav-category">
-          <i class="fa-regular fa-heart"></i>
-          <p>Voyages</p>
-        </div>
-        <div class="nav-category">
-          <i class="fa-regular fa-bell"></i>
-          <p>Alertes</p>
-        </div>
-        <button>Connectez-vous</button>
-        <div class="nav-category">
-          <i class="fa-solid fa-cart-shopping"></i>
-          <p>Panier</p>
-        </div>
-      </nav>
+      <div class="container">
+        <i class="fa-solid fa-bars"></i>
+        <img src="assets/images/Tripadvisor_logo.svg" alt="logo TripAdvisor" />
+        <nav>
+          <div class="nav-category hidden-phone">
+            <i class="fa-solid fa-pen"></i>
+            <p>Avis</p>
+          </div>
+          <div class="nav-category hidden-phone">
+            <i class="fa-regular fa-heart"></i>
+            <p>Voyages</p>
+          </div>
+          <div class="nav-category hidden-phone">
+            <i class="fa-regular fa-bell"></i>
+            <p>Alertes</p>
+          </div>
+          <button class="hidden-phone">Connectez-vous</button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <div class="nav-category">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Panier</p>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-      <section class="selection">
-        <h1><span>Explorez</span> Paris</h1>
-        <p>
-          Les revenus influencent le choix des expériences présentées sur cette
-          page :
-          <span
-            ><a
-              href="https://www.tripadvisor.fr/HowTheSiteWorks.html"
-              target="_blank"
-              >en savoir plus</a
-            ></span
-          >.
-        </p>
-        <div class="selection-links">
-          <nav>
-            <p>Hôtels</p>
-            <i class="fa-solid fa-bed"></i>
-          </nav>
-          <nav>
-            <p>Locations de vacances</p>
-            <i class="fa-solid fa-house"></i>
-          </nav>
-          <nav>
-            <p>Activités</p>
-            <i class="fa-solid fa-ticket"></i>
-          </nav>
-          <nav>
-            <p>Restaurants</p>
-            <i class="fa-solid fa-utensils"></i>
-          </nav>
-          <nav>
-            <p>Forums de voyage</p>
-            <i class="fa-regular fa-comments"></i>
-          </nav>
-          <nav>
-            <p>Vols</p>
-            <i class="fa-solid fa-plane"></i>
-          </nav>
-          <nav>
-            <p>Plus</p>
-            <i class="fa-solid fa-ellipsis"></i>
-          </nav>
-        </div>
-      </section>
-      <section class="pictures">
-        <img
-          src="assets/images/view.jpg"
-          alt="vue de paris depuis le bord de seine"
-        />
-        <div class="pictures-side">
-          <img
-            src="assets/images/caption-8.jpg"
-            alt="couple sur une moto à paris"
-          />
-          <img src="assets/images/caption-9.jpg" alt="vue sur la tour Eiffel" />
-        </div>
-      </section>
-      <section class="menu">
-        <div class="menu-page">
-          <p>Europe</p>
-          <i class="fa-solid fa-angle-right"></i>
-          <p>France</p>
-          <i class="fa-solid fa-angle-right"></i>
-          <p>Île-De-France</p>
-          <i class="fa-solid fa-angle-right"></i>
-          <p>Paris</p>
-          <i class="fa-solid fa-caret-down"></i>
-        </div>
-        <p>Visiter : Paris</p>
-      </section>
-      <section class="information">
-        <div class="about-paris">
-          <h2>La Ville Lumière éblouit en tous points</h2>
+      <div class="container">
+        <section class="selection">
+          <h1><span>Explorez</span> Paris</h1>
           <p>
-            Aucun autre endroit au monde ne fait autant rêver que Paris. La
-            ville séduit par son art, son architecture, sa culture et sa
-            cuisine, mais il y a aussi des merveilles plus discrètes qui
-            n’attendent qu’à être explorées : les ruelles pavées pittoresques,
-            les pâtisseries au coin de la rue et les petits bistrots douillets
-            qui vous invitent à boire un verre de beaujolais. Préparez-vous à
-            vous approprier Paris.
+            Les revenus influencent le choix des expériences présentées sur
+            cette page :
+            <span
+              ><a
+                href="https://www.tripadvisor.fr/HowTheSiteWorks.html"
+                target="_blank"
+                >en savoir plus</a
+              ></span
+            >.
           </p>
-        </div>
-        <div class="box-map">
-          <div class="organisation">
-            <h3>Paris : commencez à organiser !</h3>
+          <div class="selection-links">
+            <nav>
+              <p>Hôtels</p>
+              <i class="fa-solid fa-bed"></i>
+            </nav>
+            <nav>
+              <p>Locations de vacances</p>
+              <i class="fa-solid fa-house"></i>
+            </nav>
+            <nav>
+              <p>Activités</p>
+              <i class="fa-solid fa-ticket"></i>
+            </nav>
+            <nav>
+              <p>Restaurants</p>
+              <i class="fa-solid fa-utensils"></i>
+            </nav>
+            <nav>
+              <p>Forums de voyage</p>
+              <i class="fa-regular fa-comments"></i>
+            </nav>
+            <nav class="hidden-desktop">
+              <p>Vol</p>
+              <i class="fa-solid fa-plane"></i>
+            </nav>
+            <nav class="hidden-desktop">
+              <p>Croisières</p>
+              <i class="fa-solid fa-ferry"></i>
+            </nav>
+            <nav>
+              <p>Plus</p>
+              <i class="fa-solid fa-ellipsis"></i>
+            </nav>
+          </div>
+        </section>
+        <section class="pictures">
+          <img
+            src="assets/images/view.jpg"
+            alt="vue de paris depuis le bord de seine"
+          />
+          <div class="pictures-side hidden-phone">
+            <img
+              src="assets/images/caption-8.jpg"
+              alt="couple sur une moto à paris"
+            />
+            <img
+              src="assets/images/caption-9.jpg"
+              alt="vue sur la tour Eiffel"
+            />
+          </div>
+        </section>
+        <section class="menu">
+          <div class="menu-page">
+            <p>Europe</p>
+            <i class="fa-solid fa-angle-right"></i>
+            <p>France</p>
+            <i class="fa-solid fa-angle-right"></i>
+            <p>Île-De-France</p>
+            <i class="fa-solid fa-angle-right"></i>
+            <p>Paris</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <p>Visiter : Paris</p>
+        </section>
+        <section class="information">
+          <div class="about-paris">
+            <h2>La Ville Lumière éblouit en tous points</h2>
             <p>
-              Créez un voyage pour enregistrer et organiser toutes vos idées et
-              les visualiser sur une carte.
+              Aucun autre endroit au monde ne fait autant rêver que Paris. La
+              ville séduit par son art, son architecture, sa culture et sa
+              cuisine, mais il y a aussi des merveilles plus discrètes qui
+              n’attendent qu’à être explorées : les ruelles pavées pittoresques,
+              les pâtisseries au coin de la rue et les petits bistrots douillets
+              qui vous invitent à boire un verre de beaujolais. Préparez-vous à
+              vous approprier Paris.
             </p>
-            <button>Créez un voyage</button>
           </div>
-          <div class="maps">
-            <img src="assets/images/image_trips_card_medium.png" alt="" />
-          </div>
-        </div>
-      </section>
-      <section class="Paris">
-        <h2>Paris : les immanquables</h2>
-        <div class="activities">
-          <div class="col-1">
-            <h3>Se divertir</h3>
-            <p>
-              Des lieux à voir, des rues à explorer et des expériences
-              emblématiques à Paris.
-            </p>
-            <a>Tout afficher</a>
-          </div>
-          <div class="col-2">
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
-                </div>
-                <img
-                  src="assets/images/eiffeltoren.jpg"
-                  alt="Eiffel Tower"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
-              </div>
-              <div class="carroussel-text">
-                <h4>Tour Eiffel</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>139 901</span>
-                </div>
-                <p>
-                  Tours et plateformes d'observation, Monuments & Points
-                  d'intérêt
-                </p>
-              </div>
+          <div class="box-map">
+            <div class="organisation">
+              <h3>Paris : commencez à organiser !</h3>
+              <p>
+                Créez un voyage pour enregistrer et organiser toutes vos idées
+                et les visualiser sur une carte.
+              </p>
+              <button>Créez un voyage</button>
             </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+            <div class="maps">
+              <img src="assets/images/image_trips_card_medium.png" alt="" />
+            </div>
+          </div>
+        </section>
+        <section class="Paris">
+          <h2>Paris : les immanquables</h2>
+          <div class="activities">
+            <div class="col-1">
+              <h3>Se divertir</h3>
+              <p>
+                Des lieux à voir, des rues à explorer et des expériences
+                emblématiques à Paris.
+              </p>
+              <a>Tout afficher</a>
+            </div>
+            <div class="col-2">
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets/images/eiffeltoren.jpg"
+                    alt="Eiffel Tower"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <img
-                  src="assets/images/arc-de-triomphe-at-night.jpg"
-                  alt="arc de triomphe"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
+                <div class="carroussel-text">
+                  <h4>Tour Eiffel</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>139 901</span>
+                  </div>
+                  <p>
+                    Tours et plateformes d'observation, Monuments & Points
+                    d'intérêt
+                  </p>
+                </div>
               </div>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets/images/arc-de-triomphe-at-night.jpg"
+                    alt="arc de triomphe"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
+                </div>
 
-              <div class="carroussel-text">
-                <h4>Arc de Triomphe</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-regular fa-circle"></i>
-                  <span>56 976</span>
+                <div class="carroussel-text">
+                  <h4>Arc de Triomphe</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <span>56 976</span>
+                  </div>
+                  <p>Bâtiments architecturaux, Sites historiques</p>
                 </div>
-                <p>Bâtiments architecturaux, Sites historiques</p>
               </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/louvre.jpg"
+                    alt="Louvre"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <img
-                  src="assets//images/louvre.jpg"
-                  alt="Louvre"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
+                <div class="carroussel-text">
+                  <h4>Musée du Louvre</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>100 845</span>
+                  </div>
+                  <p>Bâtiments architecturaux, Musées d'art</p>
+                </div>
               </div>
-              <div class="carroussel-text">
-                <h4>Musée du Louvre</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>100 845</span>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/vue-de-la-cour-d-honneur.jpg"
+                    alt="musée rodin"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <p>Bâtiments architecturaux, Musées d'art</p>
+                <div class="carroussel-text">
+                  <h4>Musée Rodin</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>187 981</span>
+                  </div>
+                  <p>Musées spécialisés</p>
+                </div>
               </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/the-amazingly-detailed.jpg"
+                    alt="Cathédrale Notre-Dame de Paris"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <img
-                  src="assets//images/vue-de-la-cour-d-honneur.jpg"
-                  alt="musée rodin"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
+                <div class="carroussel-text">
+                  <h4>Cathédrale Notre-Dame de Paris</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>139 901</span>
+                  </div>
+                  <p>Bâtiments architecturaux, Sites historiques</p>
+                </div>
               </div>
-              <div class="carroussel-text">
-                <h4>Musée Rodin</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>187 981</span>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/the-bookstore.jpg"
+                    alt="Librairie Shakespear and Company"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <p>Musées spécialisés</p>
+                <div class="carroussel-text">
+                  <h4>Librairie Shakespear and Company</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>140 321</span>
+                  </div>
+                  <p>Bibliothèques, Grands magasins</p>
+                </div>
               </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/20180601-122841-largejpg.jpg"
+                    alt="Musée d'Orsay"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <img
-                  src="assets//images/the-amazingly-detailed.jpg"
-                  alt="Cathédrale Notre-Dame de Paris"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
+                <div class="carroussel-text">
+                  <h4>Musée d'Orsay</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>67 761</span>
+                  </div>
+                  <p>Musées d'art</p>
+                </div>
               </div>
-              <div class="carroussel-text">
-                <h4>Cathédrale Notre-Dame de Paris</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>139 901</span>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/marche-vernaison-maison.jpg"
+                    alt="Marché aux Puces de Saint-Ouen"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <p>Bâtiments architecturaux, Sites historiques</p>
-              </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+                <div class="carroussel-text">
+                  <h4>Marché aux Puces de Saint-Ouen</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>103 495</span>
+                  </div>
+                  <p>
+                    Antiquaires, Marchés aux puces & Marchés de rue Saint-Ouen,
+                    France À 5,4 kilomètres de Paris
+                  </p>
                 </div>
-                <img
-                  src="assets//images/the-bookstore.jpg"
-                  alt="Librairie Shakespear and Company"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
-              </div>
-              <div class="carroussel-text">
-                <h4>Librairie Shakespear and Company</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>140 321</span>
-                </div>
-                <p>Bibliothèques, Grands magasins</p>
-              </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
-                </div>
-                <img
-                  src="assets//images/20180601-122841-largejpg.jpg"
-                  alt="Musée d'Orsay"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
-              </div>
-              <div class="carroussel-text">
-                <h4>Musée d'Orsay</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>67 761</span>
-                </div>
-                <p>Musées d'art</p>
-              </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
-                </div>
-                <img
-                  src="assets//images/marche-vernaison-maison.jpg"
-                  alt="Marché aux Puces de Saint-Ouen"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
-              </div>
-              <div class="carroussel-text">
-                <h4>Marché aux Puces de Saint-Ouen</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>103 495</span>
-                </div>
-                <p>
-                  Antiquaires, Marchés aux puces & Marchés de rue Saint-Ouen,
-                  France À 5,4 kilomètres de Paris
-                </p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="activities">
-          <div class="col-1">
-            <h3>Se Restaurer</h3>
-            <p>Bistrots et bars typiques, et plus encore à Paris.</p>
-            <a>Tout afficher</a>
-          </div>
-          <div class="col-2">
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
-                </div>
-                <img
-                  src="assets/images/meal1.jpg"
-                  alt="meal"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
-              </div>
-              <div class="carroussel-text">
-                <h4>Frenchy</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>1 297</span>
-                </div>
-                <p>
-                  €€€€ · Française, Végétariens bienvenus, Plats sans gluten
-                </p>
-              </div>
+          <div class="activities">
+            <div class="col-1">
+              <h3>Se Restaurer</h3>
+              <p>Bistrots et bars typiques, et plus encore à Paris.</p>
+              <a>Tout afficher</a>
             </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+            <div class="col-2">
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets/images/meal1.jpg"
+                    alt="meal"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <img
-                  src="assets/images/meal2.jpg"
-                  alt="meal"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
+                <div class="carroussel-text">
+                  <h4>Frenchy</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>1 297</span>
+                  </div>
+                  <p>
+                    €€€€ · Française, Végétariens bienvenus, Plats sans gluten
+                  </p>
+                </div>
               </div>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets/images/meal2.jpg"
+                    alt="meal"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
+                </div>
 
-              <div class="carroussel-text">
-                <h4>114 faubourg</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-regular fa-circle"></i>
-                  <span>1 754</span>
+                <div class="carroussel-text">
+                  <h4>114 faubourg</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <span>1 754</span>
+                  </div>
+                  <p>€€ · Française, Européenne, Végétariens bienvenus</p>
                 </div>
-                <p>€€ · Française, Européenne, Végétariens bienvenus</p>
               </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/meal3.jpg"
+                    alt="meal"
+                    class="image-primary"
+                  />
                 </div>
-                <img
-                  src="assets//images/meal3.jpg"
-                  alt="meal"
-                  class="image-primary"
-                />
-              </div>
-              <div class="carroussel-text">
-                <h4>Verjus</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>545</span>
+                <div class="carroussel-text">
+                  <h4>Verjus</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>545</span>
+                  </div>
+                  <p>€€€ · Française, Européenne, Moderne</p>
                 </div>
-                <p>€€€ · Française, Européenne, Moderne</p>
               </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/meal4.jpg"
+                    alt="meal"
+                    class="image-primary"
+                  />
                 </div>
-                <img
-                  src="assets//images/meal4.jpg"
-                  alt="meal"
-                  class="image-primary"
-                />
-              </div>
-              <div class="carroussel-text">
-                <h4>ASPIC</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>2 981</span>
+                <div class="carroussel-text">
+                  <h4>ASPIC</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>2 981</span>
+                  </div>
+                  <p>€€€€ · Française, Européenne, Saine</p>
                 </div>
-                <p>€€€€ · Française, Européenne, Saine</p>
               </div>
-            </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets/images/meal5.jpg"
+                    alt="meal"
+                    class="image-primary"
+                  />
+                  <img
+                    src="assets/images/favicon-tripadvisor.svg"
+                    alt="logo TripAdvisor"
+                    class="image-logo"
+                  />
                 </div>
-                <img
-                  src="assets/images/meal5.jpg"
-                  alt="meal"
-                  class="image-primary"
-                />
-                <img
-                  src="assets/images/favicon-tripadvisor.svg"
-                  alt="logo TripAdvisor"
-                  class="image-logo"
-                />
-              </div>
 
-              <div class="carroussel-text">
-                <h4>Bistrot chic</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-regular fa-circle"></i>
-                  <span>1 345</span>
+                <div class="carroussel-text">
+                  <h4>Bistrot chic</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <span>1 345</span>
+                  </div>
+                  <p>€€€ · Française, Européenne, Saine, Moderne</p>
                 </div>
-                <p>€€€ · Française, Européenne, Saine, Moderne</p>
+              </div>
+              <div class="carroussel">
+                <div class="carroussel-image">
+                  <div class="circle">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+                  <img
+                    src="assets//images/meal6.jpg"
+                    alt="meal"
+                    class="image-primary"
+                  />
+                </div>
+                <div class="carroussel-text">
+                  <h4>Vive les huîtres</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle"></i>
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <span>4 340</span>
+                  </div>
+                  <p>€€€€€ · Française, Moderne, Bar à vins</p>
+                </div>
               </div>
             </div>
-            <div class="carroussel">
-              <div class="carroussel-image">
-                <div class="circle">
-                  <i class="fa-regular fa-heart"></i>
-                </div>
+          </div>
+        </section>
+        <section class="guide">
+          <h2>Guides de voyageurs</h2>
+          <div class="guide-articles">
+            <div class="article">
+              <div class="article-image">
                 <img
-                  src="assets//images/meal6.jpg"
-                  alt="meal"
-                  class="image-primary"
+                  src="assets/images/visit1.jpg"
+                  alt="best summer things to do in paris"
                 />
               </div>
-              <div class="carroussel-text">
-                <h4>Vive les huîtres</h4>
-                <div class="rating">
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle"></i>
-                  <i class="fa-solid fa-circle-half-stroke"></i>
-                  <span>4 340</span>
+              <div class="article-text">
+                <h4>Best summer things to do in Paris | Eatwith</h4>
+                <p>36 articles</p>
+                <div class="article-author">
+                  <img src="assets/images/forks-icon.jpg" alt="eatwith" />
+                  <p>Par <span>Eadtwith</span></p>
                 </div>
-                <p>€€€€€ · Française, Moderne, Bar à vins</p>
+              </div>
+            </div>
+            <div class="article">
+              <div class="article-image">
+                <img
+                  src="assets/images/visit2.jpg"
+                  alt="best summer things to do in paris"
+                />
+              </div>
+              <div class="article-text">
+                <h4>Les 10 monuments et musées de Paris à faire</h4>
+                <p>10 articles</p>
+                <div class="article-author">
+                  <img src="assets/images/topito-com.jpg" alt="eatwith" />
+                  <p>Par <span>Topito</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="article">
+              <div class="article-image">
+                <img
+                  src="assets/images/visit3.jpg"
+                  alt="best summer things to do in paris"
+                />
+              </div>
+              <div class="article-text">
+                <h4>Top 10 des choses à faire ou à voir dans le 14ème</h4>
+                <p>10 articles</p>
+                <div class="article-author">
+                  <img src="assets/images/topito-com.jpg" alt="eatwith" />
+                  <p>Par <span>Topito</span></p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="guide">
-        <h2>Guides de voyageurs</h2>
-        <div class="guide-articles">
-          <div class="article">
-            <div class="article-image">
-              <img
-                src="assets/images/visit1.jpg"
-                alt="best summer things to do in paris"
-              />
-            </div>
-            <div class="article-text">
-              <h4>Best summer things to do in Paris | Eatwith</h4>
-              <p>36 articles</p>
-              <div class="article-author">
-                <img src="assets/images/forks-icon.jpg" alt="eatwith" />
-                <p>Par <span>Eadtwith</span></p>
-              </div>
-            </div>
-          </div>
-          <div class="article">
-            <div class="article-image">
-              <img
-                src="assets/images/visit2.jpg"
-                alt="best summer things to do in paris"
-              />
-            </div>
-            <div class="article-text">
-              <h4>Les 10 monuments et musées de Paris à faire</h4>
-              <p>10 articles</p>
-              <div class="article-author">
-                <img src="assets/images/topito-com.jpg" alt="eatwith" />
-                <p>Par <span>Topito</span></p>
-              </div>
-            </div>
-          </div>
-          <div class="article">
-            <div class="article-image">
-              <img
-                src="assets/images/visit3.jpg"
-                alt="best summer things to do in paris"
-              />
-            </div>
-            <div class="article-text">
-              <h4>Top 10 des choses à faire ou à voir dans le 14ème</h4>
-              <p>10 articles</p>
-              <div class="article-author">
-                <img src="assets/images/topito-com.jpg" alt="eatwith" />
-                <p>Par <span>Topito</span></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
     <footer>
-      <img
-        src="assets/images/favicon-tripadvisor.svg"
-        alt="logo de tripadvisor"
-      />
-      <p>
-        Made at
-        <a href="https://www.lereacteur.io/" target="_blank">Le Reacteur</a> by
-        <a href="https://www.linkedin.com/in/lucie-h%C3%A9lias/" target="_blank"
-          >Lucie Hélias</a
-        >
-        - 2024
-      </p>
+      <div class="container">
+        <img
+          src="assets/images/favicon-tripadvisor.svg"
+          alt="logo de tripadvisor"
+        />
+        <p>
+          Made at
+          <a href="https://www.lereacteur.io/" target="_blank">Le Reacteur</a>
+          by
+          <a
+            href="https://www.linkedin.com/in/lucie-h%C3%A9lias/"
+            target="_blank"
+            >Lucie Hélias</a
+          >
+          - 2024
+        </p>
+      </div>
     </footer>
   </body>
 </html>

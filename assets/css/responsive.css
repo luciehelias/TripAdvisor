@@ -1,0 +1,112 @@
+@media (max-width: 1184px) {
+  .container {
+    margin: 0 20px;
+  }
+
+  .hidden-desktop {
+    display: flex;
+  }
+
+  .selection-links nav {
+    width: calc((100% - 30px) / 4);
+    flex: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-category p {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+  .fa-magnifying-glass,
+  .fa-bars {
+    display: block;
+  }
+  .hidden-phone {
+    display: none;
+  }
+
+  header img {
+    width: 140px;
+    object-fit: contain;
+  }
+
+  .selection {
+    margin-bottom: 40px;
+  }
+
+  .selection-links {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    flex: auto;
+  }
+
+  .selection-links nav {
+    flex-shrink: 0;
+    width: auto;
+  }
+
+  .selection-links i {
+    font-size: 16px;
+  }
+
+  .pictures {
+    height: 275px;
+    margin: 0 -20px;
+    width: auto;
+  }
+
+  .pictures img {
+    width: 100%;
+  }
+
+  .information {
+    flex-direction: column;
+  }
+
+  .about-paris {
+    width: auto;
+    padding: 0;
+  }
+
+  .about-paris p {
+    font-size: 16px;
+  }
+
+  .box-map {
+    width: auto;
+    margin-bottom: 60px;
+  }
+
+  .organisation {
+    display: block;
+    height: auto;
+  }
+
+  .maps {
+    height: 188px;
+  }
+
+  .activities {
+    flex-direction: column;
+  }
+
+  .col-1 {
+    margin-bottom: 40px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  main {
+    padding: 0;
+  }
+}
